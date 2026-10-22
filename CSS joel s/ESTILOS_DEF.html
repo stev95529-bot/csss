@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESTILOS DEF. css</title>
+    <meta charset="UTF-8">
+
+        <!--link para unir el HTML con los estilos del CSS-->
+    <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+
+
+<body>
+
+    <!--se utiliza div para hacer la cabecera del documento-->
+<div id="cabecera"><h1>Este es un titulo con estilo de un archivo externo css</h1></div>
+
+
+    <!--se utiliza "class" para poner un estilo regido por medio de clases-->
+<h2 class="resaltado">Este es un titulo utilizando un estilo a traves de clases</h2>
+
+
+<h3 class=".titulopagina">Este es un subtitulo utilizando con mas propiedades relacionadas de css</h3>
+
+
+<p>
+
+    Hasta ahora hemos visto la definición de estilos a nivel de elemento HTML
+    y la definición de estilos a nivel de página. Dijimos que la primera
+    forma es muy poco recomendada y la segunda es utilizada cuando queremos definir
+    estilos que serán empleados solo por esa página.
+    Ahora veremos que la metodología más empleada es la definición
+    de una hoja de estilo en un archivo separado que deberá tener la extensión
+    CSS.
+</p>
+
+
+<p class="pregunta">¿Quién descubrió América 
+y en que año fue?</p>
+<p class="respuesta">Cristobal Colón en 1492</p>
+
+
+    <!--ELEMENTOS RELACIONADOS AL PADDING-->
+<pre class="codigofuente">
+public class Rectangulo{
+
+
+  //atributos
+  int alto;
+  int ancho;
+  boolean relleno;
+
+
+  //métodos
+  public int devolverArea(){
+    return alto*ancho;
+  }
+  public void rellenar(boolean r){
+    relleno=r;
+  }
+  public void cambiarTamano(int an, int al){
+    ancho=an;
+    alto=al;
+  }
+  public Rectangulo() {// constructor
+    alto=20;
+    ancho=10;
+    relleno=false;
+  }
+}
+</pre>
+
+
+    <!--ELEMENTOS RELACIONADOS AL MARGEN-->
+<em>Este es el Primer párrafo que mostrara la relacion de margenes con css a html</em>
+<em>Este es el Segundo párrafo del mismo  ejemplo</em><br><br>
+
+
+    <!--ELEMENTOS RELACIONADOS A LISTAS-->
+    <i>ESTA ES UNA LISTA CON DIFERENTES TUIPOS DE ESTILOS DE TACHADO:</i>
+<ul class="vacio">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="circulorelleno">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="circulovacio">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="romanonumeros">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="decimal">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="romanominuscula">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="romanomayuscula">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="letrasminusculas">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul>
+<ul class="letrasmayusculas">
+  <li>Brasil</li>
+  <li>Uruguay</li>
+  <li>Argentina</li>
+</ul><br><br>
+
+
+    <!--ELEMENTOS RELACIONADOS A FUENTES(formato resumido)-->
+<i>Este es un texto en negrita utiluizando css para su tipo de fuente</i>
+
+
+<!--PROPIEDADES RELACIONADAS AL BORDE(formato resumido)-->
+<h2 class="subtitulo">ESTE ES UN SUBTITULO CON PROPIEDAD DE BORDE</h2>
+
+
+<!--PROPIEDADES RELACIONADAS AL PADDING(formato resumido)-->
+<p class="hola">
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.<br>
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.<br>
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.<br>
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.<br>
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.<br>
+  Esto es una prueba para ver el funcionamiento de la propiedad padding.
+</p>
+
+
+<!--PROPIEDADES RELACIONADAS AL MARGIN(formato resumido)-->
+<h4>Este es un titulo con propiedades de margen en CSS</h4><br>
+
+<!--CREACION DE PSEUDOCLASES-->
+<a href="https://music.youtube.com/">YOUTUBE MUSIC LINK</a><br><br>
+
+
+<!--ELIMINACION DE SUBRRAYADO DE ENLACES POR MEDIO DE PSEUDOCLASES-->
+<a href="http://www.yahoo.com">YAHOO LINK</a><br><br>
+
+
+<!--CREACION DE MENU VERTICAL CONFIGURANDO LAS PSEUDO CLASES-->
+<div id="menu">
+<p><a href="http://www.google.com">Google</a></p>
+<p><a href="http://www.yahoo.com">Yahoo</a></p>
+<p><a href="http://www.bing.com">Bing</a></p>
+<p><a href="http://www.ask.com">ASK</a></p><br><br>
+</div>
+
+
+<!--CREACION DE MENU HORIZONTAL CON LISTA-->
+<ul id="menuhorizontal">
+<li><a href="http://www.google.com">Google</a></li>
+<li><a href="http://www.yahoo.com">Yahoo</a></li>
+<li><a href="http://www.bing.com">Bing</a></li>
+<li><a href="http://www.ask.com">Ask</a></li><br><br>
+</ul>
+
+
+<!--PROPIEDADES RELACIONADAS A DIMENSIN DE UNA PAGINA-->
+<div id="cabecera">
+BLOG del Programador
+</div>
+
+
+<!--UNIDADES DE MEDIDA-->
+  <h1>Título Nº 1</h1>
+  <h2>Título Nº 2</h2>
+  <h3>Título Nº 3</h3>
+  <h4>Título Nº 4</h4>
+  <h5>Título Nº 5</h5>
+  <h6>Título Nº 6</h6><br><br>
+
+
+<!--FORMAS PARA INDICAR EL COLOR-->
+<p class="estilo1">Primer párrafo</p>
+<p class="estilo2">Segundo párrafo</p>
+<p class="estilo3">Tercer párrafo</p>
+
+
+<!--APLICACION DE HOJAS DE ESTILO A UN FORMULARIO-->
+<div id="contenedorform">
+<form method="post" action="#">
+  <label>Ingrese nombre:</label>
+  <input type="text" name="nombre" size="30">
+  <br>
+  <label>Direccion mail:</label>
+  <input type="text" name="mail" size="45">
+  <br>
+  <label>Comentarios:</label>
+  <textarea name="comentarios" cols="30" rows="5"></textarea> 
+  <br>
+  <input class="botonsubmit" type="submit" value="confirmar">
+</form>
+</div><br><br>
+
+
+
+<!--DEFINIENDO REGLAS DE ESTILO A UNA TABLA-->
+<table>
+  <caption>
+  cantidad de lluvia caida en mm.
+  </caption>
+  <thead>
+    <tr>
+    <th>Provincia</th><th>Enero</th><th>Febrero</th><th>Marzo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Córdoba</th>
+      <td>210</td><td>170</td><td>120</td>
+    </tr>
+    <tr>
+      <th>Buenos Aires</th>
+      <td>250</td><td>190</td><td>140</td>
+    </tr>
+    <tr>
+      <th>Santa Fe</th>
+      <td>175</td><td>140</td><td>120</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<!--POSICIONAMIENTOS RELATIVOS-->
+<div id="caja1">
+<p>Esta es la primer caja.</p>
+<p>No se desplaza.</p>
+</div>
+<div id="caja2">
+<p>Esta es la segunda caja.</p>
+<p>Se desplaza 15 píxeles a la derecha y 5 hacia abajo de su posición 
+por defecto.</p>
+</div>
+<div id="caja3">
+<p>Esta es la cuarta caja.</p>
+<p>se desplaza.</p>
+</div>
+<div id="caja4">
+<p>Esta es la Tercer caja.</p>
+<p>se desplaza.</p>
+</div>
+
+
+<!--PROPIEDAD FLOAT A UNA IMAGEN-->
+<img src="../HTML/IMG/NOBLE_SIXS.jpg">
+
+<p>El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+El texto envuelve a la imagen.El texto envuelve a la imagen
+<br><br></p>
+
+
+<!--PROPIEDAD FLOAT A ELEMENTOS HTML-->
+<p><span class="letra">A</span>quí me pongo a cantar <br>  
+En voz baja y dolida; <br> 
+Cada recuerdo es una herida <br> 
+Una pena extraordinaria, <br>
+Como la ave solitaria  <br>
+Que con las plumas negras en sus alas <br>
+Decide volar como si nada <br><br></p>
+
+
+<!--SELECTOR DE HIJOS-->
+<h1>Esto es una <em>prueba</em>.</h1>
+<ul>
+  <li>Opción 1 (es la más <em>fácil</em>)</li>
+  <li>Opción 2 (es de dificultad <em>media<em>)</li>
+  <li>Opción 2 (muy <em>compleja</em>)</li>
+</ul><br><br>
+
+
+<!--SELECTOR DE HERMANO ADYACENTE Y HERMANO GENERAL-->
+<!--  <h1>Titulo 1</h1>
+<p>Esto es el primer párrafo.</p>
+<p>Esto es el segundo párrafo.</p>
+<p>Esto es el tercer párrafo.</p>
+
+<h2>Titulo 2</h2>
+<p>Esto es el primer párrafo.</p>
+<p>Esto es el segundo párrafo.</p>
+<p>Esto es el tercer párrafo.</p>-->
+
+
+<!--SELECTOR DE ATRIBUTOS-->
+<h1>Enlaces a buscadores.</h1>
+<ol>
+  <li>
+    <a href="http://www.google.com">IR A GOOGLE</a>
+  </li>
+  <li>
+    <a href="http://www.bing.com">IR A BING</a>
+  </li>
+  <li>
+    <a href="http://www.yahoo.com" target="_blank">IR A YAHOO</a>
+  </li>
+</ol><br><br>
+
+
+<!--PSEUDO-CLASES (FIRST-CHILD Y LAST-CHILD)-->
+<ol>
+    <li>Primer opción.</li>
+    <li>Segunda opción.</li>
+    <li>Tercer opción.</li>
+    <li>Cuarta opción.</li>
+  </ol><br><br>
+
+
+<!--PSEUDO-CLASES (nth-of-type, nth-last-of-type, first-of-type y last-of-type)-->
+ <div id="contenido">
+    <h1>TITULO</h1>
+    <p>Párrafo 1</p>
+    <p>Párrafo 2</p>
+    <p>Párrafo 3</p>
+  </div><br><br>
+
+<!--PSEUDO-CLASES (only-child y only-of-type)-->
+<div id="equipo1">
+    <h1>Participantes</h1>
+    <p>Pablo Martinez.</p> 
+  </div><br><br>
+
+
+<!--PSEUDO-CLASE (empty)-->
+<div></div>
+  <p>Esto es una prueba de la PSEUDO-CLASE EMPTY.</p><br>
+
+
+<!--PSEUDO-ELEMENTOS (first-letter y first-line)-->
+<p>Esto es la prueba del pseudo-elemento first-letter.Asi que digo: HOLA, HOLA, HOLA
+  Y HOOOOOOOLAAAAAAAA
+</p><br>
+
+
+<!--PSEUDO-ELEMENTOS (before y after)-->
+<p>SQL, Structure Query Language (Lenguaje de Consulta
+ Estructurado) es un lenguaje de programacion para
+ trabajar con base de datos relacionales como
+ <strong>MySQL</strong>, Oracle, etc.</p>
+
+<p><strong>MySQL</strong> es un interpretador 
+de SQL, es un servidor de base de datos.</p>
+
+<p><strong>MySQL</strong> permite crear base
+ de datos y tablas, insertar datos, modificarlos,
+ eliminarlos, ordenarlos, hacer consultas y
+ realizar muchas operaciones, etc., resumiendo:
+ administrar bases de datos.</p>
+
+<p>Ingresando instrucciones en la linea 
+de comandos o embebidas en un lenguaje como
+ PHP nos comunicamos con el servidor. Cada 
+ sentencia debe acabar con punto y coma (;).</p><br>
+
+
+<!--CSS MEDIA QUERIES-->
+<div class="container">  
+    <h1>Título</h1> 
+    <p>Datos del contenedor</p>
+  </div>
+
+
+<!---->
+
+</body>
+</html>

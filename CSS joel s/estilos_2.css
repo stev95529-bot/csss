@@ -1,0 +1,462 @@
+
+/*EN ESTE DOCUMENTO SE ENCUENTRAN TRABAJOS COMO COLUMNAS Y FILAS POR CAUSA DE DESORDEN EN EL ARCHIVO "estilos_2.css"*/
+
+
+body {
+  background-image:url("../HTML/IMG/—Pngtree—abstract.png");
+  background-repeat: no-repeat;
+  background-size: 500%;
+}
+
+
+/*POSICIONAMIENTO FIJO (position:fixed)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+
+#barrasuperior{
+  position:fixed;
+  left:0px;
+  width:100%;
+  height:50px;
+  background-color:black;
+  color:white;
+}
+
+#barralateral{
+  position:fixed;
+  left:0px;
+  top:50px;
+  width:200px;
+  height:100%;
+  background-color:#eee;
+}
+
+#contenido{
+  padding-top:70px;
+  padding-left:220px;
+}*/
+
+
+
+/*DISPOSICION DE 2 COLUMNAS (position: absolute)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+#columna1 {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  margin-top:10px;
+  background-color:#ffff55;
+}
+#columna2 { 
+  margin-left:220px;
+  margin-right:20px;
+  margin-top:10px;  
+  background-color:#ffffbb;
+}*/
+
+
+
+/*PROPIEDAD CLEAR*/
+/*  #caja1 {
+  float:left;
+  width:250px;
+  background-color:#ffc;
+  margin:10px;
+}
+
+#caja2 {
+  float:left;
+  width:250px;
+  background-color:#ffc;
+  margin:10px;
+}
+
+#caja3 {
+  float:left;
+  width:250px;
+  background-color:#ffc;
+  margin:10px;
+}*/
+
+
+
+/*DISPOCISION DE DOS COLUMNAS(PROPIEDAD FLOAT)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+#columna1 {
+  float:left; 
+  width:210px;
+  background-color:rgb(93, 224, 207);
+  border:1px solid #555;
+}
+#columna2 {
+  margin-left:210px;
+  background-color:rgb(93, 224, 207);
+  border:1px solid #555;
+}*/
+
+
+
+/*DISPOCISION DE DOS COLUMNAS(CABECERA Y PIE)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+#contenedor
+{
+  width:100%;
+  border:1px solid #000;
+  line-height:130%;
+  background-color:#f2f2f2; 
+}
+#cabecera
+{
+  padding:10px;
+  color:#fff;
+  background-color:#becdfe;
+  clear:left;
+}
+#columna1
+{
+  float:both;
+  width:189px;
+  margin:0;
+  padding:1rem;
+  top: 52px;                           /*Tenia un error, por eso anadi la etiqueta "top"
+}
+#columna2
+{
+  margin-left:210px;
+  border-left:1px solid #aaa;
+  padding:1rem;
+}
+#pie {
+  padding:10px;
+  color:#fff;
+  background-color:#becdfe;
+  clear:left;
+}*/
+
+
+
+/*DISPOCISION DE TRES COLUMNAS(CABECERA Y PIE)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+#contenedor
+{
+  width:100%;
+  border:1px solid #000;
+  line-height:130%;
+  background-color:#f2f2f2; 
+}
+#cabecera
+{
+  padding:10px;
+  color:#fff;
+  background-color:#becdfe;
+  clear:left;
+}
+#columna1
+{
+  float:left;
+  width:200px;
+  margin:0;
+  padding:1rem;
+}
+#columna2
+{
+  margin-left:210px;
+  margin-right:230px;
+  border-left:1px solid #aaa;
+  border-right:1px solid #aaa;
+  padding:1rem;
+}
+#columna3
+{
+  float:right;
+  width:200px;
+  margin:0;
+  padding:1rem;
+}
+#pie {
+  padding:10px;
+  color:#fff;
+  background-color:#becdfe;
+  clear:left;
+}*/
+
+
+
+/*DISEÑO DE ANCHO FIJO*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#cabecera{
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pie {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+}
+
+.columna1, .columna2, .columna3 {
+  background-color: #eee;
+  width: 280px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}*/
+
+
+
+/*DISEÑO DE ANCHO LIQUIDO*/
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#cabecera{
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pie {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+}
+
+.columna1, .columna2, .columna3 {
+  background-color: #eee;
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+
+
+/*FLEXBOX*/
+#contenedor1 {
+  display: flex;
+  background-color: #ddd;
+}
+
+#contenedor1 div {
+  border:1px solid black;
+  padding:1rem;
+}
+
+
+
+/*FLEXBOX (flex-direction aplicada al contenedor)*/
+/*FLEXBOX (justify-content aplicada al contenedor)*/
+#contenedor1{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:2rem;
+}
+
+#item1 {
+  background-color: #0078A6;
+}
+#item2 {
+  background-color: #0084B6;
+}
+#item3 {
+  background-color: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-grow aplicada a los items)*/
+#contenedor1{
+  display: flex;
+  background-color: #000;  
+  height: 300px;
+  color:white;
+  font-size:2rem;
+}
+
+#item1 {  
+  background-color: #0078A6;
+}
+#item2 {
+  flex-grow: 1;
+  background-color: #0084B6;
+}
+#item3 {
+  background-color: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-shrink aplicada a los items)*/
+/*  #contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  flex-shrink: 0;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-basis aplicada a los items)*/
+/*  #contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  base flexible: 20%;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  base flexible: 60%;  
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  base flexible: 20%;  
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex aplicado a los artículos)*/
+/*  #contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  flex: 1 1 20%;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  flex: 0 0 60%;  
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  flex: 0 1 20%;  
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (orden aplicada a los artículos)*/
+/* #contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  pedido: 2;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  orden: 1;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  orden: 0;
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (align-self aplicada a los items)*/
+/*  #contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  alinear-auto: automático;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  alinear-sí mismo: flex-start;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  alinear-sí mismo: flex-end;
+  color de fondo: #008CC1;
+}
+
+#elemento4 {  
+  alinear-auto: centro;
+  color de fondo: #0078A6;
+}
+#elemento5 {
+  alinear-auto: estirar;
+  color de fondo: #0084B6;
+}
+#elemento6 {
+  alinear-auto: línea base;
+  color de fondo: #008CC1;
+}

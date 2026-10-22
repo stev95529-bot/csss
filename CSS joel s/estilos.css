@@ -1,0 +1,627 @@
+body{
+    background-color: rgb(213, 210, 218);
+}
+
+
+ h1{
+    /*text-align: center;*/
+    color: rgb(255, 255, 255);
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;*/
+}
+
+
+h3{
+    /*text-align: justify;*/
+    color: #ffffff;
+    /*font-family: cursive;*/
+}
+
+
+h1, h2, h5, h6{
+  color: #ffffff;
+}
+
+
+p{
+    /*text-align: justify;
+    color: rgb(252, 252, 252);
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-size: 2rem;
+    color: #edeec1;
+}
+
+
+    /*CREAR DEFINICION DE ESTILOS POR MEDIO DE CLASES*/
+.resaltado{
+    color: rgb(169, 71, 214);
+    font-size: 30px;
+}
+
+
+    /*CREACION DE ESTILOS POR MEDIO DE ID*/
+#cabecera {
+    font-family:Times New Roman;
+    font-size:30px;
+    text-align:center;
+    color:#0000ff;
+    background-color:#bbbbbb;
+}
+
+
+/*CREACION DE CLASES RELACIONADAS AL BORDE DE UN ELEMENTO HTML*/
+.pregunta {
+    border-width:1px;
+    border-style:solid;
+    color: #edeec1;
+    border-color:#000000;
+}
+.respuesta {
+    background-color: darkred;
+    color: #edeec1;
+    border-width:1px;
+    border-style:dashed;
+    border-color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.titulopagina {
+    background-color:#ffffcc;
+    text-align:center;
+    font-family:verdana;
+    font-size:40px;
+
+    border-top-width:1px;
+    border-right-width:3px;
+    border-bottom-width:3px;
+    border-left-width:1px;
+
+    border-top-style:dotted;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:dotted;
+
+    border-top-color:#ffaa00;
+    border-right-color:#ff0000;
+    border-bottom-color:#ff0000;
+    border-left-color:#ffaa00;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL PADDING DE UN ELEMENTO HTML*/
+.codigofuente {
+  font-size:18px;
+  background-color:#53d2e9;
+  border-width:3px;
+  border-style: groove ;
+  border-color:#000000;
+
+  padding:40px;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL MARGEN DE UN ELEMENTO HTML*/
+em{
+    background-color: #a0f5a4;
+    margin: 0px;
+    border-width: 12px;
+    border-style: initial;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS LISTAS DE HTML*/
+
+ul{
+   color: aliceblue;
+}
+
+li{
+   color: aliceblue;
+}
+
+
+.vacio{
+  list-style-type:none;
+}
+.circulorelleno{
+  list-style-type:disc;
+}
+.decimal{
+  list-style-type:decimal;
+}
+.romanominuscula{
+  list-style-type:lower-roman;
+}
+.romanomayuscula{
+  list-style-type:upper-roman;
+}
+.circulovacio{
+  list-style-type:circle;
+}
+.romanonumeros{
+  list-style-type:square;
+}
+.letrasminusculas{
+  list-style-type:lower-alpha;
+}
+.letrasmayusculas{
+  list-style-type:upper-alpha;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL FONDO DE HTML(background)*/
+body{
+  background-image:url("../HTML/IMG/—Pngtree—abstract.png");
+  background-repeat: no-repeat;
+  background-size: 500%;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS A FUENTES(formato resumido)*/
+i{
+    color: azure;
+    font: bold 25px;
+    font-size: 20px;
+    
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL BORDE(formato resumido)*/
+.subtitulo{
+  border:5px solid #4d24c0;
+  color: aliceblue;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL PADDING(formato resumido)*/
+.hola{
+  background-color:#ff8f8f;
+  padding:50px 50px;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL MARGIN(formato resumido)*/
+  h4{
+  /*margin: 30px 20px;*/
+  color: aliceblue;
+}
+
+
+
+/*PROPIEDADES RELACIONADAS AL FONDO(BACKGROUND)(formato resumido)*/
+/*body {
+  background: #ffffee url(../HTML/IMG/—Pngtree—abstract.png) repeat-x;*/ /*hace que el fondo se amplie*/
+/*}*/
+
+
+
+/*(SELECTOR UNIVERSAL*)*/
+/*  * {
+    margin:0;
+    padding:0;
+}*/
+
+
+/*CREACION DE PSEUDOCLASES*/
+a:hover{
+  background-color:#09ffde;
+  color: bisque;
+}
+
+
+
+/*ELIMINACION DE SUIBRRAYADO DE ENLACES POR MEDIO DE PSEUDOCLASES*/
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+
+
+/*CREACION DE MENU VERTICAL CONFIGURANDO LAS PSEUDO CLASES*/
+#menu {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu p {
+  margin:0px;
+  padding:0px;
+}
+
+#menu a {
+  display: block;
+  padding: 3px;
+  width: 160px;
+  background-color: #edeec1;
+  border-bottom: 1px solid #eeeeee;
+  text-align:center;
+}
+s
+#menu a:link, #menu a:visited {
+  color: #1887ee;
+  text-decoration: none;
+}
+
+
+
+/*CREACION DE MENU HORIZONTAL CON LISTA*/
+#menuhorizontal {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#menuhorizontal a {
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  color:#ff0000;
+  background-color:#f7f8e8;
+  padding:3px 5px;
+  border-right:1px solid blue;
+  display:block;
+}
+
+#menuhorizontal li {
+  float:left;
+}
+
+#menuhorizontal a:hover {
+  background-color:#336699;
+}
+
+
+/*PROPIEDADES RELACIONADAS A DIMENSIN DE UNA PAGINA*/
+#cabecera {
+  width:100%;  
+  height:100px;
+  background-color:#c57212;
+  color:#0000aa;
+  text-align:center;
+  font-family: serif;
+  font-size:50px;
+  font-weight:bold; 
+}
+
+
+/*UNIDADES DE MEDIDA*/
+html {
+  font-size: 10px;
+}
+h1 {
+  font-size:2.5rem;
+}
+
+h2 {
+  font-size: 2.2 rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {	
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+
+
+/*FORMAS PARA INDICAR EL COLOR*/
+.estilo1 {
+  background-color:rgb(255,0,0);
+  font-size: 3rem;
+}
+
+.estilo2 {
+  background-color:rgb(206, 103, 19);
+  font-size: 3rem;
+}
+
+.estilo3 {
+  background-color:rgb(233, 231, 95);
+  font-size: 3rem;
+}
+
+
+
+/*DEFINIR UN CURSOR PARA UN ELEMENTO HTML (enlaces)*/
+a {
+  cursor: grabbing;
+}
+
+
+
+/*APLICACION DE HOJAS DE ESTILO A UN FORMULARIO*/
+#contenedorform {
+  width:500px; 
+  margin-left:20px; 
+  margin-top:10px;
+  background-color:rgb(55, 167, 196);
+  border:1px solid rgb(55, 167, 196);
+  padding:10px 0 10px 0;
+}
+
+#contenedorform form label {
+  width:120px; 
+  float:left;
+  font-family:verdana;
+  font-size:14px;
+}
+.botonsubmit {
+  color:rgb(50, 138, 209);
+  background-color:#000000;
+  border: 1px solid #fff;
+}
+
+
+
+/*DEFINIENDO REGLAS DE ESTILO A UNA TABLA*/
+caption
+{
+  font-family:arial;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+  padding:10px;
+  color: #ffffff;
+}
+
+table
+{
+  border-collapse: collapse;
+  font-size: 2rem;
+}
+
+th
+{
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 0.5em;
+  background-color:#000000;;
+}
+
+thead th
+{
+  background-color: #000000;
+  color: #fff;
+}
+
+tbody th
+{
+  font-family:arial;
+  font-weight: normal;
+  background-color: #000000;
+  color:#ff0;
+}
+
+td {
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:#19bacf;
+  width:100px;
+  text-align:center;
+}
+
+
+
+/*POSICIONAMIENTO RELATIVO (position:Relative)*/
+#caja1,#caja2, #caja3 {
+  background-color:#f99;
+  font-family:verdana;
+  font-size:1.3rem;
+}
+#caja2 {
+  position:relative;
+  left:15px;
+  top:5px;
+}
+
+
+
+/*POSICIONAMIENTO ABSOLUTO (position:absolute)*/
+#caja4 {
+  background-color:rgb(0, 0, 0);
+  font-size:1.3rem;
+  font-family:verdana;
+  position:absolute;
+  left:770px;
+  top:3170px;
+  z-index: 3;
+}
+
+
+
+/*POSICIONAMIENTO ABSOLUTO Y PROPIEDAD Z-INDEX*/
+#caja3{
+  position:absolute;
+  background-color:red;
+  left:600px;
+  top:3160px;
+  width:200px;
+  height:120px;
+  z-index:1;
+}
+
+
+
+/*PROPIEDAD FLOAT A UNA IMAGEN*/
+img {
+  float:right;
+  font-size: 1rem;
+}
+
+
+
+/*PROPIEDAD FLOAT A ELEMENTOS HTML*/
+.letra {
+  float:left;
+  font-size:5rem;
+}
+
+
+
+/*SELECTOR DE HIJOS*/
+li em{
+  color:#f00;
+  font-size: 3rem ;
+}
+
+ul{
+  font-size: 2em;
+}
+
+
+
+/*SELECTOR DE HERMANO ADYACENTE Y HERMANO GENERAL*/
+/*  h1+p{
+  color:#f00;
+}
+
+h2~p{
+  color:#f00;
+}*/
+
+
+
+/*SELECTOR DE ATRIBUTOS*/
+a[target]{
+  color:#f00;
+  font-size: 2rem;
+}
+
+a{
+  font-size: 2rem;
+  color: #bbbbbb;
+}
+
+
+
+/*PSEUDO-CLASES (FIRST-CHILD Y LAST-CHILD)*/
+ol li:first-child {
+  color:rgb(34, 141, 155);
+}
+
+ol li:last-child {
+  color:rgb(255, 172, 19);
+}
+
+li{
+  font-size: 2rem;
+}
+
+ol{
+  font-size: 2rem;
+}
+
+
+/*PSEUDO-CLASES (nth-of-type, nth-last-of-type, first-of-type y last-of-type)*/
+#contenido p:nth-child(2) {
+  color:red;
+}
+
+
+
+/*PSEUDO-CLASES (only-child y only-of-type)*/
+/*#equipo1 p:only-child {
+  color:red;
+}*/
+
+#equipo1 p:only-of-type{
+  color:red;
+}
+
+
+
+/*PSEUDO-CLASE (empty)*/
+div:empty {
+  width:80%;
+  margin:0 auto;
+  height:50px;
+  background-color:yellow;
+}
+
+
+
+/*PSEUDO-ELEMENTOS (first-letter y first-line)*/
+/*p::first-letter {
+  font-size:1.5rem;
+  color:red;
+}
+
+p{
+  font-size: 2rem;
+}*/
+
+
+
+/*PSEUDO-ELEMENTOS (before y after)*/
+strong::before {
+  content:"¡";
+}
+
+strong::after {
+  content:"!";
+}
+
+
+
+/*CSS MEDIA QUERIES*/
+.container {
+  width:100%;
+  margin:0 auto;
+  height:200px;
+  background-color:#b4a1a1;  
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    background-color:#ddd;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    background-color:#ccc;	
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    background-color:#bbb;	
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    background-color:#ccc;		
+  }
+}
+
+
+
+/**/
